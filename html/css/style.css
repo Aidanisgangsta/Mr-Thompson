@@ -7,6 +7,13 @@ body {
 h1 {
     color: black;
     text-align: center;
+    font-size: 34px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 24px;
 }
 
 #navigation {
@@ -67,4 +74,12 @@ h1 {
     left: 10vw;
     width: 80vw;
     bottom: -100vh;
+}
+
+.introduction {
+    border-bottom: 2px solid;
+}
+
+.toppicks {
+
 }
