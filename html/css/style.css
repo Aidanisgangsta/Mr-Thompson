@@ -1,7 +1,9 @@
-body {
+body, html {
     background-image: url("http://i.overhash.net/6DC8Ck.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: -100;
+    scrollbar-color: smooth;
 }
 
 h1 {
@@ -73,13 +75,34 @@ h2 {
     top: 50px;
     left: 10vw;
     width: 80vw;
-    bottom: -100vh;
+    bottom: auto;
+}
+
+.content img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    display: block;
+    width: 100%;
+    height: 725px;
+    outline: 2px solid;
+    outline-offset: -2px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.parallax {
+
 }
 
 .introduction {
     border-bottom: 2px solid;
 }
 
-.toppicks {
+#printer1 h1, h2{
+    text-align: left;
+}
 
+#printer2 h1, h2 {
+    text-align: left;
 }
