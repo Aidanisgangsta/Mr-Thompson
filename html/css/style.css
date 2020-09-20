@@ -6,18 +6,6 @@ body, html {
     scrollbar-color: smooth;
 }
 
-h1 {
-    color: black;
-    text-align: center;
-    font-size: 34px;
-}
-
-h2 {
-    color: black;
-    text-align: center;
-    font-size: 24px;
-}
-
 #navigation {
     position: fixed;
     background-color: lightgray;
@@ -91,18 +79,62 @@ h2 {
     overflow: hidden;
 }
 
-.parallax {
-
-}
-
 .introduction {
     border-bottom: 2px solid;
 }
 
-#printer1 h1, h2{
-    text-align: left;
+.introduction h1 {
+    font-size: 36px;
+    color: black;
+    text-align: center;
 }
 
-#printer2 h1, h2 {
+.introduction h2 {
+    font-size: 24px;
+    color: black;
+    text-align: center
+}
+
+#topicks h1 {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+}
+
+#toppicks h2 {
     text-align: left;
+    color: black;
+    font-size: 24px;
+}
+
+#toppicks a {    
+    text-decoration: none;
+    color: black;
+    font-size: 36;
+}
+
+#toppicks a::before {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: blue;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.5s;
+}
+
+#toppicks a:hover::before {
+    width: 100%;
+}
+
+#toppick ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#toppick li {
+    margin: 0;
+    padding-left: 5vw;
+    display: inline-block;
 }
