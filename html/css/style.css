@@ -95,27 +95,29 @@ body, html {
     text-align: center
 }
 
-#topicks h1 {
+.topicks h1 {
     font-size: 36px;
     color: black;
     text-align: center;
 }
 
-#toppicks h2 {
+.toppicks h2 {
     text-align: left;
     color: black;
     font-size: 24px;
 }
 
-#toppicks a {    
-    text-decoration: none;
+.toppicks a {    
+    text-decoration: none;    
+    font-size: 36px;
     color: black;
-    font-size: 36;
+    text-align: center;
+    display: inline;
 }
 
-#toppicks a::before {
+.toppicks a::before {
     content: "";
-    width: 0%;
+    width: 0;
     height: 2px;
     background: blue;
     position: absolute;
@@ -124,17 +126,6 @@ body, html {
     transition: 0.5s;
 }
 
-#toppicks a:hover::before {
+.toppicks a:hover::before {
     width: 100%;
-}
-
-#toppick ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-#toppick li {
-    margin: 0;
-    padding-left: 5vw;
-    display: inline-block;
 }
